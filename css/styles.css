@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    /* Center the logo horizontally */
+}
+
+.logo img {
+    width: 100%;
+    /* Ensure the logo fills its container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.instagram-btn {
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding-top: 100px;
+    /* Adjust based on logo height */
+}
+
+.services {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+.services ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+}
+
+.services li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
+    border-bottom: 1px solid #ddd;
+    /* Add bottom border for separation */
+    padding-bottom: 5px;
+    /* Add padding to separate text from border */
+}
+
+.services li:last-child {
+    margin-bottom: 0;
+    /* Remove margin for last item to prevent extra space */
+}
+
+.services li span {
+    font-weight: bold;
+    /* Optionally make service name bold */
+}
+
+.services li span.service-name {
+    margin-left: 17px;
+    /* Add space after the price */
+}
+
+.services li span.price {
+    color: #888;
+    /* Optionally style price differently */
+    margin-right: 17px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow img {
+    width: 100%;
+    /* Set a specific width for the images */
+    max-height: 400px;
+    /* Set a maximum height to maintain aspect ratio */
+    object-fit: cover;
+    /* Ensure the entire image is visible */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 11px;
+    /* Adjust the font size as needed */
+}
+
+.social {
+    margin: 0.9rem 0;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.social a {
+    margin: 0 0.5rem;
+}
+a:hover 
+{
+  opacity: 0.6;
+}
