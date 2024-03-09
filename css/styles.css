@@ -15,16 +15,12 @@ header {
 
 .logo {
     max-width: 200px;
-    /* Adjust the maximum width as needed */
     margin: 0 auto;
-    /* Center the logo horizontally */
 }
 
 .logo img {
     width: 100%;
-    /* Ensure the logo fills its container */
     height: auto;
-    /* Maintain aspect ratio */
 }
 
 .instagram-btn {
@@ -40,7 +36,6 @@ header {
 
 main {
     padding-top: 100px;
-    /* Adjust based on logo height */
 }
 
 .services {
@@ -51,7 +46,6 @@ main {
 
 .services ul {
     list-style-type: none;
-    /* Remove bullets */
     padding: 0;
 }
 
@@ -59,31 +53,24 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    /* Adjust margin as needed */
     border-bottom: 1px solid #ddd;
-    /* Add bottom border for separation */
     padding-bottom: 5px;
-    /* Add padding to separate text from border */
 }
 
 .services li:last-child {
     margin-bottom: 0;
-    /* Remove margin for last item to prevent extra space */
 }
 
 .services li span {
     font-weight: bold;
-    /* Optionally make service name bold */
 }
 
 .services li span.service-name {
     margin-left: 17px;
-    /* Add space after the price */
 }
 
 .services li span.price {
     color: #888;
-    /* Optionally style price differently */
     margin-right: 17px;
 }
 
@@ -105,12 +92,27 @@ main {
 
 .slideshow img {
     width: 100%;
-    /* Set a specific width for the images */
     max-height: 400px;
-    /* Set a maximum height to maintain aspect ratio */
     object-fit: cover;
-    /* Ensure the entire image is visible */
 }
+
+.location {
+    text-align: center; 
+  }
+  
+  .map-container {
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .map-container iframe {
+    width: 100%; 
+    max-width: 600px; 
+    height: 450px; 
+  }
+  .map-container iframe {
+    filter: invert(90%) hue-rotate(180deg);
+  }
 
 footer {
     background-color: black;
@@ -120,7 +122,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 11px;
-    /* Adjust the font size as needed */
+    
 }
 
 .social {
