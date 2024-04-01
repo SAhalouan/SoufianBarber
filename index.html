@@ -16,16 +16,15 @@
 <link rel="shortcut icon" type="image/png" href="assets/favicon/favicon.png">
 <script>
   const language = (navigator.language || navigator.userLanguage).substring(0, 2);
-  const supportedLanguages = ['en', 'fr', 'es', 'ar'];
-  const defaultLanguage = 'en';
+  const supportedLanguages = ['fr', 'es', 'ar'];
 
-  let redirectUrl = `index_${language}.html`;
+  let redirectUrl = 'index_${language}.html';
 
-  if (!supportedLanguages.includes(language)) {
-    redirectUrl = `index.html`;
+  if (supportedLanguages.includes(language)) {
+    window.location.href = redirectUrl;
   }
 
-  window.location.href = redirectUrl;
+  
 </script>
 <script>
   window.addEventListener('contextmenu', function (e) {
