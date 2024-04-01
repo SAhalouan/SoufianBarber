@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="shortcut icon" type="image/png" href="assets/favicon/favicon.png">
 <script>
-  const language = navigator.language.substring(0, 2);
-  const supportedLanguages = ['fr', 'es', 'ar'];
+  const language = (navigator.language || navigator.userLanguage).substring(0, 2);
+  const supportedLanguages = ['en', 'fr', 'es', 'ar'];
   const defaultLanguage = 'en';
 
   let redirectUrl = `index_${language}.html`;
