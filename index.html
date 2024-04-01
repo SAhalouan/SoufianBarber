@@ -18,7 +18,7 @@
   const language = (navigator.language || navigator.userLanguage).substring(0, 2);
   const supportedLanguages = ['fr', 'es', 'ar'];
 
-  let redirectUrl = 'index_${language}.html';
+  let redirectUrl = `index_${language}.html`;
 
   if (supportedLanguages.includes(language)) {
     window.location.href = redirectUrl;
